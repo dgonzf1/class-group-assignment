@@ -1,3 +1,5 @@
+use std::collections::HashMap;
+
 pub struct Class {
     class_id: u64,
     name: String,

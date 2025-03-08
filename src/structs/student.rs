@@ -1,6 +1,7 @@
 pub struct Student {
     // TODO: passing id as different types.
     id: u64,
+    name: String,
     // TODO: Year should give priority for taking classes.
     // for the first iteration, this will not be implemented.
     year: i8,
