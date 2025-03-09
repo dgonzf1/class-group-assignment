@@ -20,3 +20,10 @@ impl Student {
         self.inscribed_classes.push(class_id);
     }
 }
+
+pub fn students_from_json(students_str: String) -> Result<Vec<Student>, String> {
+    println!("Entering fn students_from_json");
+    let students: Vec<Student> = serde_json::from_str(&students_str).map_err(|e| e.to_string())?;
+    println!("{:?}", students[0]);
+    Ok(students)
+}

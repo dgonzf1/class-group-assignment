@@ -30,3 +30,10 @@ impl Class {
         self.students_inscribed.len() as u16
     }
 }
+
+pub fn class_from_json(classes_str: String) -> Result<Vec<Class>, String> {
+    println!("Entering fn class_from_json");
+    let classes: Vec<Class> = serde_json::from_str(&classes_str).map_err(|e| e.to_string())?;
+    println!("{:?}", classes[0]);
+    Ok(classes)
+}
