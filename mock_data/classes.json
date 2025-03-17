@@ -1,0 +1,72 @@
+[
+  {
+    "class_id": 1,
+    "name": "Introduction to Magical Theory",
+    "professor": "Albus Dumbledore",
+    "min_students": 10,
+    "max_students": 30
+  },
+  {
+    "class_id": 2,
+    "name": "Defense Against the Dark Arts",
+    "professor": "Severus Snape",
+    "min_students": 15,
+    "max_students": 25
+  },
+  {
+    "class_id": 3,
+    "name": "Transfiguration",
+    "professor": "Minerva McGonagall",
+    "min_students": 10,
+    "max_students": 20
+  },
+  {
+    "class_id": 4,
+    "name": "Potions",
+    "professor": "Severus Snape",
+    "min_students": 10,
+    "max_students": 20
+  },
+  {
+    "class_id": 5,
+    "name": "History of Magic",
+    "professor": "Cuthbert Binns",
+    "min_students": 5,
+    "max_students": 25
+  },
+  {
+    "class_id": 6,
+    "name": "Charms",
+    "professor": "Filius Flitwick",
+    "min_students": 10,
+    "max_students": 30
+  },
+  {
+    "class_id": 7,
+    "name": "Herbology",
+    "professor": "Pomona Sprout",
+    "min_students": 10,
+    "max_students": 25
+  },
+  {
+    "class_id": 8,
+    "name": "Care of Magical Creatures",
+    "professor": "Rubeus Hagrid",
+    "min_students": 5,
+    "max_students": 20
+  },
+  {
+    "class_id": 9,
+    "name": "Astronomy",
+    "professor": "Aurora Sinistra",
+    "min_students": 10,
+    "max_students": 30
+  },
+  {
+    "class_id": 10,
+    "name": "Advanced Transfiguration",
+    "professor": "Minerva McGonagall",
+    "min_students": 10,
+    "max_students": 20
+  }
+]
